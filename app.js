@@ -67,10 +67,6 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   console.log(answerArr[2]);
   var messageTwo = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + answerArr[1] + '.';
   answerArr.push(messageTwo);
-  console.log(answerArr[3]);
-  for(var i = 0; i < answerArr.length; i++){
-    console.log(answerArr[i]);
-  }
   return [answerArr[0], answerArr[1], answerArr[2], answerArr[3]];
 }
 
