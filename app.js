@@ -91,7 +91,8 @@ var testArray = [2, 3, 4]; //eslint-disable-line
 function sumArray(testArray) { //eslint-disable-line
   var sumOne = sum(testArray[0],testArray[1]);
   var finalAns = sum(sumOne[0], testArray[2]);
-  finalAns[1] = testArray[0] + ',' + testArray[1] + ',' + testArray[2] + 'was passed in as an array of numbers, and ' + finalAns[0] + ' is their sum.';
+  finalAns[1] = testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + finalAns[0] + ' is their sum.';
+  console.log('Answers: ' + finalAns[1]);
   return [finalAns[0], finalAns[1]];
 }
 // Here is the test for sumArray(); uncomment it to run it
